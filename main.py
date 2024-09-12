@@ -1,5 +1,8 @@
 from Produto import Produto
 from Cliente import Cliente
+from Pedido import Pedido
+from datetime import datetime
+
 listaProdutos = [] 
 listaClientes = []
 
@@ -142,6 +145,7 @@ while(True):
     print("Escolha uma opção: \n"
         "1 - 👤 Clientes \n"
         "2 - 📦 Produtos \n"
+        "3 - 🛒 Novo Pedido \n"
         "0 - ⬅️ Sair ")
     escolha = input("Digite:")
 
@@ -151,6 +155,19 @@ while(True):
         menuClientes()
     elif escolha=="2":
         menuProdutos()
+
+    elif escolha=="3":
+
+        
+
+        data = datetime.now().strftime('%d/%m/%Y')
+        hora = datetime.now().strftime('%H:%M')
+        pagamento="PiXX"
+
+        objetoCliente=listaClientes[0]
+
+        objetoPedido = Pedido(1, data, hora, pagamento,objetoCliente)
+        objetoPedido.imprimir()
     else:
          print("Opção Inválida!")
 
