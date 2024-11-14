@@ -22,4 +22,4 @@ No lançamento do pedido é preciso informar o CPF do cliente informado anterior
 # Diagrama de Classes 
 Abrir arquivo "Diagrama de Classes.drawio" em [draw.io](https://www.draw.io/)  
   
-![Lançamento do Pedido](src/Diagrama%20de%20Classes.png)
+![Lançamento do Pedido](src/diagrama_classes.png)
