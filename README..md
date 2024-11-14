@@ -10,7 +10,7 @@ Antes de executar o código, certifique-se de ter o Python instalado. Se você a
 Este programa não possuí dependencias
 
 # Utilizando o sistema
-Este código simula um sistema de lanchonete com cadastro de clientes, produtos e registro de pedidos.
+Este código simula um sistema de lanchonete com cadastro de clientes, produtos e registro de pedidos.  
 ![Menu Principal](src/menu_principal.png)
 
 Para realizar um pedido é preciso cadastrar um cliente e um produto. 
@@ -18,3 +18,8 @@ Para realizar um pedido é preciso cadastrar um cliente e um produto.
 
 No lançamento do pedido é preciso informar o CPF do cliente informado anteriormente e o código do produto cadastrado.  
 ![Lançamento do Pedido](src/pedido.png)
+
+# Diagrama de Classes 
+Abrir arquivo "Diagrama de Classes.drawio" em [draw.io](https://www.draw.io/)  
+  
+![Lançamento do Pedido](src/Diagrama%20de%20Classes.png)
